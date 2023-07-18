@@ -1,0 +1,46 @@
+.section-wrapper {
+    background-color: var(--main-background);
+    padding: 50px;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+.section-header h4 {
+    font-size: 36px;
+    font-weight: 900;
+}
+.most-popular-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.most-popular-item {
+    flex: 1 25%;
+}
+#root > div.container.main-container > div.section-wrapper > div.most-popular-items > div:nth-child(2) > div > div > h4 > span {
+    display: block;
+    margin-top: 11px;
+}
+.card-wrapper {
+    border-radius: 12.5px;
+    padding: 25px;
+    background-color: var(--main-dark);
+    margin: 10px;
+    padding-bottom: 0px;
+
+}
+.mp-image {
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: calc(50px/ 4);
+}
+.mp-item-content {
+    display: flex;
+    justify-content: space-between;
+}
+.mp-item-title {
+    font-size: 14px;
+}
+#root > div.container.main-container > div.section-wrapper > div.most-popular-items > div:nth-child(2) > div > div > ul {
+    display: flex;
+    flex-direction: column;  
+}
